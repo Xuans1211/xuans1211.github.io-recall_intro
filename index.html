@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        #role {
+            height: 100vh;
+            background-image: url("assets/Yonny_walk1.gif");
+            background-position: 0% 85%;
+            background-repeat: no-repeat;
+            background-size: 10%;
+            background-attachment: fixed;
+            filter: opacity(100%);
+        }
+
+        #horizontal {
+            position: absolute;
+            height: 100vh;
+            background-image: url("assets/gallery1.png");
+            width: 440vw;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        #bl1 {
+            /* background-color: black; */
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100vh;
+            /* right: 0px; */
+            /* width: 2000px; */
+            /* position: absolute; */
+            color: white;
+        }
+
+        #t1 {
+            background-image: url("assets/god.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .r1 {
+            color: rgba(200, 200, 200, 1);
+            font-size: 14px;
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 200px;
+            height: 45px;
+            filter: opacity(90%);
+            position: absolute;
+            text-align: center;
+            font-weight: bold;
+            top: 400px;
+            float: left;
+            opacity: 60%;
+        }
+
+        .r2 {
+            color: white;
+            font-size: 14px;
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 400px;
+            height: 130px;
+            position: absolute;
+            text-align: left;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-right: 20px;
+            font-weight: bold;
+            top: 200px;
+            float: left;
+        }
+
+        .r3 {
+            color: white;
+            font-size: 14px;
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 250px;
+            height: 100px;
+            position: absolute;
+            text-align: left;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-right: 20px;
+            font-weight: bold;
+            top: 70px;
+            float: left;
+        }
+        .r4 {
+            color: white;
+            width: 250px;
+            height: 100px;
+            position: absolute;
+            text-align: left;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-right: 20px;
+            font-weight: bold;
+            top: 70px;
+            float: left;
+        }
+
+        #p3 {
+            background-image: url("assets/ALL\ \(1\).gif");
+            background-size: 65%;
+            width: 400px;
+            height: 100px;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 330px;
+            left: 250px;
+        }
+    </style>
+    </style>
+    <title>Recall 專訪</title>
+</head>
+
+<body>
+    <div id="t1">
+        <div style="padding-top: 40px;color: white;font-weight: bold;text-align: center;">
+            <h1>《Recall: Empty wishes》台灣原創獨立遊戲團隊專訪</h1>
+            <h3>── 關於無法實現的願望</h3>
+        </div>
+        <div style="height: 50px;"></div>
+        <div style="color: white;text-align: left;padding-left: 150px;padding-right: 150px;font-size: 18px;">
+            今年獲得「巴哈姆特 2021 ACG 創作大賽 遊戲組」文策院特別獎、「2021放視大賞 」銅賞的作品《Recall: Empty
+            wishes》，製作團隊為來自中正大學的五位學生所組成的泡芙虎克工作室，是今年各個得獎團隊中少數
+            <span
+                style="color: gold;font-weight: bold;">並非來自遊戲科系的學生</span>；團隊於10月29日宣布，明年將在Steam發售遊戲完整版，本文將介紹該作品以及他們的創作歷程及心情。
+        </div>
+        <div style="height: 50px;"></div>
+        <div style="color: white;text-align: left;padding-left: 150px;padding-right: 150px;font-size: 18px;">
+            《Recall : Empty
+            wishes》是一款懸疑x劇情向的2D橫向卷軸遊戲，故事發生在弟弟失蹤後，姊姊試圖追尋其失蹤的真相，並與其朋友一起透過玩具話筒進入過去的影像世界，在這裡能聽見每個人埋藏在心底的願望，而真相也隨著那些願望逐漸浮現...
+        </div>
+        <div class="container-fluid text-center" style="padding-top: 20px;">
+            <a href="#start" style="color: white;font-size: 25px;font-weight: bold;">開始通話
+            </a>
+        </div>
+    </div>
+
+    <div id="start" style="min-height: 1200vh;min-width:100px;background-color: black;">
+        <div style="color: white;padding-left: 150px; padding-top: 100px;font-size: 20px;padding-right: 200px;">
+            <h2>「如果早知道自己的願望不會實現，那你又是為了什麼而堅持？」</h2>
+            <br>遊戲故事圍繞著一對姊弟之間的願望與回憶而展開，玩家將操控姐姐的角色，穿梭在回憶裡尋找弟弟為何失蹤的真相。<br>
+            <br>遊戲製作人「菇橘」表示，遊戲的核心概念則是「無法實現的願望」，期盼透過這款遊戲詢問玩家：『在意識到自己的願望不會實現之後，我們還要繼續怒力下去嗎？如果選擇繼續努力下去，那又是為了什麼而努力呢？』」
+            <br>
+            <br>菇橘也說，該故事原先來自於團隊企劃所創作之舞台劇劇本《Recall》，在大四參與畢業製作時決定將其改編為遊戲，這個劇本概念吸引到了菇橘身邊的幾位朋友，成員都來自心理系及傳播系，且對遊戲也感到有興趣，於是決定齊心嘗試製作一款劇情向的遊戲。
+
+            <div style="height: 200px;"></div>
+        </div>
+        <div id="hframe" class="sticky-top">
+            <div id="horizontal">
+                <div
+                    style="color: white;top: 100px;font-size: 20px;padding-right: 100px;width: 750px;padding-left: 145px;">
+                    <h3 style="font-weight: bold;">決定踏上開發遊戲後路程不易</h3>
+                    <br>團隊中的程式「柚子」表示，大家遊戲製作的經驗幾乎是零，所以花了不少心力去自學開發流程以及學習開發軟體Unity。
+                    <br><br>
+                    <p style="font-style:italic;font-size: 18px;">
+                        記得剛開始做的時候，常會擔心做不出企劃想要的功能，在遊戲的操作、玩法上也花了很多心思跟時間修改，卡住的時候偶爾會冒出「我們真的做得出來嗎…」的念頭。但好在大家都會盡可能的找方法解決問題，也願意溝通跟接納彼此的意見，所以有慢慢摸索出適合我們的開發模式了。
+                        <br><br>
+                    </p>
+                    <h3>於是，這場<span style="color: gold;">越級打怪</span>的旅程便開始了！</h3>
+                </div>
+                <div>
+                    <div class="r2" style="left: 890px;">
+                        身兼企劃的菇橘，一開始從撰寫角色自傳開始寫起，不斷地構思這些角色喜歡什麼、討厭什麼。
+                        <br>美術收到企劃的需求後，並開始繪製角色形象，也開始繪製與角色相關的"信物"。
+                    </div>
+
+                    <div class="r3" style="left: 1580px;">
+                        遊戲中的場景「遺望迴廊」是一個承載眾角色回憶的空間。
+                        玩家將在這裡回到過去、尋找真相。
+                    </div>
+                    <div class="r3" style="left: 2580px;">
+                        團隊表示，會參加比賽是因為收到了《人生畫廊》企劃陳俊儒的建議，從沒想過會受到評審的青睞。
+                    </div>
+                    <div class="r3" style="left: 3880px;top: 200px;">
+                        赤燭創辦人「包子」也表示，這是今年參賽作品中氛圍掌握最好的敘事恐怖遊戲，可以期待後續故事。
+                    </div>
+                    <div class="r1" style="left: 1365px;">
+                        林子維，16歲
+                        <br>聰明體貼的主角弟弟
+                    </div>
+                    <div class="r1" style="left: 1870px;">
+                        黃詠英，42歲
+                        <br>主角的母親，個性形象都嚴肅
+                    </div>
+                    <div class="r1" style="left: 2375px;">
+                        何昱銘，16歲
+                        <br>子維同學，輕浮且愛開玩笑
+                    </div>
+                    <div class="r1" style="left: 2880px;">
+                        簡睿萱，17歲
+                        <br>主角同學，古靈精怪魔法少女
+                    </div>
+                    <div class="r1" style="left: 3377px;">
+                        林子晴，17歲
+                        <br>遊戲主角，低調安靜的姊姊
+                    </div>
+                    <div class="r4" style="right:900px;width: 520px;font-size: 20px;padding-top: 100px;">
+                        菇橘說，雖然成員現在都各有工作或還在讀書，但泡芙虎克工作室會繼續把這款作品完成，預計明年可以釋出完整版的遊戲並在Steam上架。
+                        <br><br>希望玩家最終能讓玩家好好體驗這個故事，在遊玩的過程中找到一些共鳴。
+                        <br><br>
+                        <p style="font-size: 15px;">記者：傅書軒 <br>2021/11/8 採訪報導</p>
+                        <div id="p3"></div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div id="role"></div>
+
+        </div>
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+        <script>
+            $(function () {
+                var h_pos = $("#horizontal").offset().top;
+                var max_scroll = $(document).height() - $(window).height();
+                var max_w = $("#horizontal").width() - $(window).width();
+                var winh = $(window).height();
+                $(document).ready(function () {
+
+                    $(window).scroll(function () {
+                        var current_pos = $(window).scrollTop();
+                        if (current_pos > h_pos) {
+                            var new_left = (-1 * max_w * current_pos) / max_scroll + 850;
+                            $("#horizontal").css({
+                                'left': new_left
+                            });
+                        }
+                    });
+                });
+            });
+
+            function topNavScroll() {
+                var topScroll = Math.floor($(window).scrollTop());
+                var scrollDi = 2400;
+                var scrollDist1 = 6200;
+                var scrollDist2 = 6700;
+                var current_pos = $(window).scrollTop();
+                var hr_pos = $("#hframe").offset().top;
+                var new_opa= 100/(current_pos-scrollDist1)
+
+                if (current_pos <= scrollDi) {
+                    $("#role").css('opacity', current_pos / scrollDi);
+                }
+
+                if (current_pos <= (hr_pos - 80)) {
+                    $("#role").css('opacity', 0);
+                }
+                if (current_pos >= scrollDi) {
+                    $("#role").css('opacity', 1);
+                }
+                if (current_pos >= scrollDist1) {
+                    $("#role").css('opacity', new_opa);
+                }
+                if (current_pos >= scrollDist2) {
+                    $("#role").css('opacity', 0);
+                }
+            }
+            $(window).on('scroll', function () {
+                topNavScroll();
+            });
+        </script>
+</body>
+
+</html>
